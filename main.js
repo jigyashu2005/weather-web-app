@@ -4,7 +4,7 @@ function GetInfo() {
     var cityName = document.getElementById("cityName");
     cityName.innerHTML = "--"+newName.value+"--";
 
-fetch('https://api.openweathermap.org/data/2.5/forecast?q='+newName.value+'&appid=32ba0bfed592484379e51106cef3f204')
+fetch('https://api.openweathermap.org/data/2.5/forecast?q='+newName.value+'&appid=5572406e70f7e408510f3a0b7b63a86b')
 .then(response => response.json())
 .then(data => {
 
